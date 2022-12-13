@@ -1,5 +1,5 @@
 locations:
-  - location_name: dagsterproj
+  - location_name: prod
     code_source: 
       package_name: dagsterproj
     build:
