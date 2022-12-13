@@ -64,8 +64,8 @@ jobs:
         run: | 
           mkdir ./dagsterproj/pkgs
           cp -r helper-pkg ./dagsterproj/pkgs
-      - name: Setup Debug Session
-        uses: csexton/debugger-action@master
+      #- name: Setup Debug Session
+      #  uses: csexton/debugger-action@master
       - name: Build and deploy to Dagster Cloud serverless
         uses: dagster-io/dagster-cloud-action/actions/serverless_prod_deploy@v0.1
         with:
